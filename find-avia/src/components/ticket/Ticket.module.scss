@@ -1,0 +1,101 @@
+@import '../../styles/variables.scss';
+
+.container {
+  min-height: 200px;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+  border-right: 1px solid #dde3ee;
+  background-color: $secondColor;
+}
+
+.ticketLabel {
+  width: fit-content;
+  padding: 6px 24px;
+  border-top-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  background: $labelColor;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 14px;
+  color: $lightFont;
+}
+
+.ticketDetails {
+  display: flex;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.companyInfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  width: 130px;
+  padding-top: 28px;
+
+  .logo {
+    width: 39px;
+    height: 39px;
+  }
+
+  .companyName {
+    font-size: 18px;
+    line-height: 21px;
+    color: $mediumFont;
+  }
+}
+
+.flightContainer {
+  padding: 5px;
+}
+
+.flightInfo {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 24px;
+}
+
+.pathDetails {
+  width: 297px;
+  height: 56px;
+  margin: 5px 28px;
+  color: $disableBtn;
+
+  .airportsContainer {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  .pathImg {
+    margin-bottom: 2px;
+
+    img {
+      margin: 0 auto;
+      padding: 4px 12px;
+    }
+  }
+
+  .flightTime {
+    text-align: center;
+    width: 100%;
+  }
+}
+
+.luggageInfo {
+  padding: 10px 20px;
+
+  .luggageImgs {
+    display: flex;
+    align-items: flex-end;
+    gap: 8px;
+  }
+}
+
+.selectTime {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}

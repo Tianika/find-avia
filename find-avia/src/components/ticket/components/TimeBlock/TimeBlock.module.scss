@@ -1,0 +1,25 @@
+@import '../../../../styles/variables.scss';
+
+.time {
+  margin-top: 11px;
+  margin-bottom: 8px;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  color: $darkFont;
+}
+
+.city,
+.date {
+  font-size: 14px;
+  line-height: 16px;
+  color: $mediumFont;
+}
+
+.city {
+  font-weight: 500;
+}
+
+.date {
+  font-weight: 400;
+}

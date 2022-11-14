@@ -1,0 +1,37 @@
+@import '../../../../styles/variables.scss';
+
+.selectTimes {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 107px;
+  height: 34px;
+  border-radius: 10px;
+  background: $secondColor;
+  border: 1px solid $disableBtn;
+  color: $mediumFont;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.active {
+  width: 130px;
+  height: 40px;
+  border: none;
+  background: #dde3ee;
+  color: $darkFont;
+}
+
+.departure {
+  font-size: 18px;
+  line-height: 21px;
+}
+
+.arrives {
+  font-size: 14px;
+  line-height: 16px;
+}
+
+.span {
+  padding: 0 5px;
+}
